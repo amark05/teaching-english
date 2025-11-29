@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Online English Learning</title>
+  <link rel="stylesheet" href="contact.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; color: #333; }
+    header, footer { background: #2b6cb0; color: #fff; padding: 20px; text-align: center; }
+    nav { background: #1a4e80; text-align: center; padding: 10px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 20px; max-width: 600px; margin: 30px auto; background: rgba(255,255,255,0.85); border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+
+    input, textarea { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; }
+    button { background: #2b6cb0; color: white; padding: 12px 20px; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; transition: 0.3s; }
+    button:hover { background: #1a4e80; }
+
+    #form-response { margin-top: 15px; font-weight: bold; }
+    @media (max-width: 650px) { main { margin: 20px 10px; } }
+  </style>
+</head>
+
+<body style="background: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed; background-size: cover;">
+  <header>
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you! Send us your questions or feedback below.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="classes.html">Classes</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Get in Touch</h2>
+    <form action="https://formspree.io/f/mnngbowj" method="POST">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+      <p id="form-response"></p>
+    </form>
+  </main>
+
+<!-- ⭐⭐⭐ UPDATED FOOTER STARTS HERE ⭐⭐⭐ -->
+  <footer>
+    <p>&copy; 2025 Online English Learning. All Rights Reserved.</p>
+
+    <!-- Phone Number -->
+    <p>📞 Phone: (123) 456-7890</p>
+
+    <!-- Social Media Links -->
+    <p>Follow Us:</p>
+    <a href="https://facebook.com" target="_blank" style="color:white; margin:0 10px;">
+      Facebook
+    </a>
+    <a href="https://instagram.com" target="_blank" style="color:white; margin:0 10px;">
+      Instagram
+    </a>
+    <a href="https://twitter.com" target="_blank" style="color:white; margin:0 10px;">
+      Twitter
+    </a>
+  </footer>
+  <!-- ⭐⭐⭐ UPDATED FOOTER ENDS HERE ⭐⭐⭐ -->
+
+ 
+</body>
+</html>
+
+
+

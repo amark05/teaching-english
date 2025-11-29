@@ -1,0 +1,44 @@
+
+
+body {
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #2b6cb0;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+nav {
+  background: #1a4e80;
+  padding: 12px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background: #2b6cb0;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
